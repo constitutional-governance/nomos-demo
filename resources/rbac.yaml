@@ -1,0 +1,10 @@
+rbac:
+  - role: DeveloperRead
+    resource_type: topic
+    resource_name: "raw.payments.*"           # valid
+  - role: ResourceOwner
+    resource_type: topic
+    resource_name: "raw.orders.*"             # valid
+  - role: DeveloperManage
+    resource_type: topic
+    resource_name: "raw.payments.*"           # invalid: DeveloperManage only on cluster
