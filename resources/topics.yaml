@@ -1,4 +1,5 @@
 topics:
   - raw.payments.pos.checkout.receipts.transaction.v1      # valid
-  - public.orders.fulfillment.warehouse.shipments.event.v1 # valid
+  - public.payments.pos.checkout.receipts.event.v1         # valid
   - raw.payments.v1                                        # invalid: too few segments
+  - Payments.POS.Checkout.v1                               # invalid: uppercase
